@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_OverlayTransparent", "WPF_OverlayTransparent\WPF_OverlayTransparent.csproj", "{4324127E-7E9A-4B64-9C39-CC05754B494B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4324127E-7E9A-4B64-9C39-CC05754B494B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4324127E-7E9A-4B64-9C39-CC05754B494B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4324127E-7E9A-4B64-9C39-CC05754B494B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4324127E-7E9A-4B64-9C39-CC05754B494B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CC730DE-D8AE-4223-B5C5-748F883B745D}
+	EndGlobalSection
+EndGlobal

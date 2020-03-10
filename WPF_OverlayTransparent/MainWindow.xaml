@@ -1,0 +1,25 @@
+﻿<Window x:Class="WPF_OverlayTransparent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        WindowStyle="SingleBorderWindow"
+        Background="Gray"
+        ResizeMode="NoResize"
+        mc:Ignorable="d"
+        Title="Transparent Overlays | © 2020 - Berny23" Height="170" Width="270" KeyDown="Window_KeyDown">
+    <Viewbox>
+        <StackPanel Width="170">
+            <Button x:Name="btnUrl" Click="InsertURL_Click" IsTabStop="True" TabIndex="0">Insert URL</Button>
+            <Button Click="AddFromFile_Click" IsTabStop="True" TabIndex="1">Add from file</Button>
+            <Separator></Separator>
+            <DockPanel>
+                <Button Click="Load_Click"  Width="85" HorizontalAlignment="Left" IsTabStop="True" TabIndex="2">Load</Button>
+                <Button Click="Save_Click" Width="85" HorizontalAlignment="Right" IsTabStop="True" TabIndex="3">Save</Button>
+            </DockPanel>
+            <Separator></Separator>
+            <Label HorizontalAlignment="Center" FontSize="9" Padding="0">Press Escape to minimize this window.</Label>
+            <Label x:Name="lblVersion" HorizontalAlignment="Right" FontSize="6" Padding="0">Version</Label>
+        </StackPanel>
+    </Viewbox>
+</Window>
