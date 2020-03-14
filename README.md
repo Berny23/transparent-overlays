@@ -9,6 +9,9 @@ You can have your favorite GIFs, PNGs, etc. always on top and in the same spot w
 - Load image from file
 - Save and load all images including their size and screen position
 
+## Demo
+![](https://i.imgur.com/sD93mP5.gif)
+
 ## Usage
 
 1. Make sure you have installed the [Microsoft .NET Framework 4.7.2](https://support.microsoft.com/help/4054531/microsoft-net-framework-4-7-2-web-installer-for-windows) or later.
