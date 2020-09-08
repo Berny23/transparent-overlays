@@ -18,5 +18,9 @@ You can have your favorite GIFs, PNGs, etc. always on top and in the same spot w
 
 2. Download the latest release of "Transparent Overlays" from [here](https://github.com/Berny23/transparent-overlays/releases/latest/download/Transparent_Overlays.exe) and run it.
 
+## Troubleshooting
+
+- If the program doesn't start, try to disable any custom visual style or theme. ([#1](https://github.com/Berny23/transparent-overlays/issues/1))
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
